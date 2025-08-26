@@ -6,7 +6,7 @@ if [[ "${EUID:-$(id -u)}" -ne 0 ]]; then
   exit 1
 fi
 
-PROFILE="${NETGUARD_PROFILE:-secure}"
+PROFILE="${NETGUARD_PROFILE:-enterprise}"
 REPO_USER="${NETGUARD_USER:-Vibsterr99}"
 REPO_NAME="${NETGUARD_REPO:-NetGuard-Automation}"
 BRANCH="${NETGUARD_BRANCH:-main}"
